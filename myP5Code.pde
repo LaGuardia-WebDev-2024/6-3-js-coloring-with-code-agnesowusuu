@@ -1,7 +1,7 @@
 //🟢Setup Procedure - Runs Once to Set The Canvas
 void setup() {
     size(400, 400); 
-    background(255,255,255,100);
+    background(85, 198, 237);
 }
 
 
@@ -11,18 +11,24 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
-  
+  //Ground color
+  fill(59, 149, 77 )
   // The ground
   rect(0, 300, 400, 100);  
-
+//The sun color
+fill(249, 188, 13 )
   // The sun
   ellipse(80, 64, 100, 100);  
-
+//snowman color
+fill(255, 255, 255,)
   // The snowman
   ellipse(200, 300, 150, 150);
   ellipse(200, 200, 100, 100);
   ellipse(200, 120, 75, 75);
-  
+   line(247,180,281,164)
+   line(281,164,188,120)
+   line(154,177,100,133)
+   
 
 }
 
